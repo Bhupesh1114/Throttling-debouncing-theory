@@ -6,7 +6,7 @@ Say under normal circumstances you would call this function 1,000 times over 10 
 (10s * 1,000) = 10,000ms
 10,000ms / 100ms throttling = 100 maximum calls
 
-WE CAN LIMIT THE FUNCTION CALL IN A PARTICULAR TIME PERIOD.
+WE CAN LIMIT THE FUNCTION CALL IN A PARTICULAR TIME PERIOD. USES --- FOR SCROLL, FOR RESIZING EVENT etc.
 
 DEBOUNCING----------------
 
@@ -17,4 +17,4 @@ Perhaps a function is called 1,000 times in a quick burst, dispersed over 3 seco
 If you have debounced it at 100 milliseconds, the function will only fire once, at 3.1 seconds, once the burst is over. 
 Each time the function is called during the burst it resets the debouncing timer.
 
-WE WILL DO FUNCTION CALL AFTER A PARTICULAR TIME PERIOD HAS PASSED.
+WE WILL DO FUNCTION CALL AFTER A PARTICULAR TIME PERIOD HAS PASSED. USES --- FOR SEARCH INPUT etc.
